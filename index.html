@@ -6,11 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>查看图片</title>
     <script type="application/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="application/javascript" src="js/bootstrap.js"></script>
     <script type="application/javascript" src="js/index.js"></script>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link type="text/css" href="css/index.css" rel="stylesheet">
 </head>
 <body>
+<!--顶部菜单导航-->
+<div class="container" >
+         <nav class="navbar navbar-dark bg-inverse">
+          <a class="navbar-brand" href="#">star-chen's 相册</a>
+         <ul class="nav navbar-nav">
+           <li class="nav-item active">
+             <a class="nav-link" href="#">首页</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="#">详细信息</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="#">设置</a>
+           </li>
+          <li class="nav-item">
+             <a class="nav-link" href="#">关于</a>
+           </li>
+         </ul>
+         <form class="form-inline float-xs-right">
+           <input class="form-control" type="text" placeholder="Search">
+           <button class="btn btn-outline-success" type="submit">搜索</button>
+         </form>
+       </nav>
+</div>
+<!--底部上传按钮-->
+<div class="upload">
+    <img src="img/Upload.svg" class="upload-ico"/>
+</div>
+
+
+
 
 </body>
 </html>
