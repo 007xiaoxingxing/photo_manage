@@ -1,0 +1,70 @@
+body{
+
+background: #d4d4d4;
+
+}
+.intro{
+    position: absolute;
+    top:35%;
+    left:50%;
+    margin:0 auto;
+    width:480px;
+    height:80px;
+    margin-left: -200px;
+    margin-top: -40px;
+    text-align: center;
+
+}
+#intro-content{
+
+    font-size: 30px;
+}
+.form{
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin:0 auto;
+    width:200px;
+    height:100px;
+    margin-left: -150px;
+    margin-top: -50px;
+}
+
+
+#username{
+
+    width:300px;
+    height:40px;
+    font-size: 20px;
+}
+.password{
+    margin-top: 15px;
+}
+#password{
+
+    width:300px;
+    height:40px;
+    font-size: 20px;
+}
+
+#submit{
+
+    position: absolute;
+    width:200px;
+    height:40px;
+    left: 50%;
+
+    margin-top: 15px;
+    font-size: 20px;
+
+}
+
+.info{
+
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    font-size:20px;
+    color: #025aa5;
+}
+
