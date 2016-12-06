@@ -158,8 +158,29 @@
    <a href="#"><img src="img/Upload.svg" class="upload-ico"/></a>
 </div>
 
+<!-- 图片上传模态框 -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title" id="myModalLabel">上传图片到云端</h4>
+            </div>
+            <div class="modal-body">
+                <div class="img-previw">
+                    <img src="upload/capture1.PNG" style="width: 100px;height: 200px">
+                </div>
+                <button class="btn btn-success file-select">选择文件</button>
+                <input style="display: none" type="file" id="up-img" size="10" name="img[]" multiple/>
 
-
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                <button type="button" class="btn btn-primary">上传</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
 
 </body>
 </html>
